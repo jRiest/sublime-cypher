@@ -164,7 +164,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(?i)\b(MERGE|START|MATCH|WHERE|RETURN|CREATE|DELETE|SET|FOREACH|WITH|CYPHER|DISTINCT|AS|LIMIT|SKIP|UNIQUE|ORDER\s+BY)\b</string>
+					<string>(?i)\b(MERGE|START|(OPTIONAL\s+)?MATCH|WHERE|RETURN|CREATE|DELETE|SET|FOREACH|WITH|CYPHER|DISTINCT|AS|LIMIT|SKIP|UNIQUE|ORDER\s+BY|UNION(\s+ALL)?|UNWIND)\b</string>
 					<key>name</key>
 					<string>keyword.control.clause.cypher</string>
 				</dict>
